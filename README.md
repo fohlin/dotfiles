@@ -1,10 +1,7 @@
-# Mathias’s dotfiles
+# fohlins’s dotfiles
 
-![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
+Adapted from [Mathias’s](https://github.com/mathiasbynens/dotfiles/), of course. Use that repo for instructions, and as your own starting point.
 
-## Installation
-
-**Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
 ### Using Git and the bootstrap script
 
@@ -25,16 +22,6 @@ Alternatively, to update while avoiding the confirmation prompt:
 ```bash
 set -- -f; source bootstrap.sh
 ```
-
-### Git-free install
-
-To install these dotfiles without Git:
-
-```bash
-cd; curl -#L https://github.com/mathiasbynens/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,.osx,LICENSE-MIT.txt}
-```
-
-To update later on, just run that command again.
 
 ### Specify the `$PATH`
 
@@ -82,11 +69,6 @@ When setting up a new Mac, you may want to install some common [Homebrew](https:
 ```
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.
-
-## Feedback
-
-Suggestions/improvements
-[welcome](https://github.com/mathiasbynens/dotfiles/issues)!
 
 ## Author
 
