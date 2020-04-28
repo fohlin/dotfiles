@@ -13,6 +13,7 @@ brew cask install imageoptim
 brew cask install microsoft-azure-storage-explorer
 brew cask install microsoft-teams
 brew cask install ngrok
+brew cask install omnifocus
 brew cask install safari-technology-preview
 brew cask install signal
 brew cask install spectacle
