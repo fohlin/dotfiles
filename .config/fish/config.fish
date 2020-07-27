@@ -1,7 +1,7 @@
 fundle plugin 'edc/bass'
 fundle init
 source ~/.iterm2_shell_integration.fish
-set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+set -p fish_user_paths "/usr/local/sbin"
 # Configure gpg
 set -g GPG_TTY (tty)
 # could automatically use default node version using
